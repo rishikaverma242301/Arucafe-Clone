@@ -4,8 +4,8 @@ const Seventh = () => {
   return (
     <div data-aos="fade-up">
       <h5 className='text-orange-500 text-center mt-24'>UPDATE INFORS</h5>
-      <h1 className='text-amber-950 text-center text-4xl mt-4 mb-14'>Our Latest Articles</h1>
-      <div className='grid grid-cols-3 mb-8 gap-3 h-80 ml-5'>     
+      <h1 className='text-amber-950 text-center text-4xl mt-4 mb-14 sm:text-3xl'>Our Latest Articles</h1>
+      <div className='grid grid-cols-1 sm:grid-cols-3 mb-8 gap-3 h-80 ml-5'>     
       <div><img src="/image/61.jpeg" alt=""  /></div>
       <div><img src="/image/62.jpeg" alt="" /></div>
       <div><img src="/image/63.jpeg" alt="" /></div>
@@ -25,7 +25,7 @@ const Seventh = () => {
     </div>
 
   </div>
-  <div className='flex justify-center ml-12 -mt-10'>
+  <div className='flex justify-center ml-34 -mt-10'>
 <button className='w-44 h-12 bg-orange-500 text-white hover:bg-white hover:text-orange-500'>Read More</button>
 </div>
    </div>

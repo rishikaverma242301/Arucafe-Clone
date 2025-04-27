@@ -4,7 +4,7 @@ const Third = () => {
   return (
     <div className=' mt-20' data-aos="fade-up">
      
-      <div className='grid md:grid-cols-2 gap-10 items-start'>
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-10 items-start'>
         
           <div className='h-[120%] bg-no-repeat bg-cover bg-right flex items-center pl-8'style={{backgroundImage:'url("/image/331.png")',backgroundPosition:'right',backgroundSize:'70%'}} >
             <img src="/image/332.png" alt="" className='w-64 h-64' />

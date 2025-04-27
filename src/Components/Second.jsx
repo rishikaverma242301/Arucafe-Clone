@@ -13,9 +13,9 @@ const Second = () => {
   return (
     <div data-aos="fade-up">
       <div className="text-black text-center mt-14">
-        <h6 className="text-orange-400 mt-24 mb-4"  >VISIT OUR STORE</h6>
-        <h2 className="text-amber-950 text-5xl mb-6"  >Few Word About Us</h2>
-        <p >
+        <h6 className="text-orange-400 mt-24 mb-4 sm:text-xl"  >VISIT OUR STORE</h6>
+        <h2 className="text-amber-950 text-5xl sm:text-4xl lg:text-5xl mb-6"  >Few Word About Us</h2>
+        <p className="text-sm sm:text-base max-w-3xl mx-auto" >
           A charming neighbourhood restaurant and bar, located in the heart of
           the city; a true <br />
           gateway to gourmet farm-to-table dining, inspired by seasonal produce.

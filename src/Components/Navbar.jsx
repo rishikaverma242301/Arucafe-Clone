@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="bg-transparent text-white py-3 px-4">
       <nav className="flex items-center justify-between">
         
-        <ul className="flex space-x-6 ml-4">
+        <ul className="md:flex space-x-6 ml-4">
           <li><a href="#" className="hover:text-orange-500">Home</a></li>
           <li><a href="#" className="hover:text-orange-500">Menu</a></li>
           <li><a href="#" className="hover:text-orange-500">Reservation</a></li>
@@ -18,13 +18,13 @@ const Navbar = () => {
           </div>
         
 
-        <ul className="flex space-x-6">
+        <ul className="md:flex space-x-6">
           <li><a href="#" className="hover:text-orange-500">Shop</a></li>
           <li><a href="#" className="hover:text-orange-500">Blog</a></li>
           <li><a href="#" className="hover:text-orange-500">Page</a></li>
         </ul>
 
-        <div className="flex items-center space-x-4 ml-6">
+        <div className="md:flex items-center space-x-4 ml-6">
           <FaUser className="hover:text-orange-500" />
           <div className="relative">
             <FaHeart className="hover:text-orange-500" />

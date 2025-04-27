@@ -7,9 +7,9 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between text-white gap-10">
         
         <div className="md:w-1/3">
-          <img src="/image/logo.png" alt="Logo" />
+          <img src="/image/logo.png" alt="Logo" className="w-24 mb-4" />
 
-          <p className="mt-4">
+          <p className="mt-4 text-sm">
             Lectus vestibulum mattis ullamcorperen <br /> velit sed ullam corper morbi.
           </p>
 
@@ -17,16 +17,15 @@ const Footer = () => {
             <input
               type="email"
               placeholder="Enter Your Email"
-              className="text-white border border-white w-56 h-12 px-4 bg-transparent"
+              className="text-white border border-white w-full sm:w-56 h-12 px-4 bg-transparent mb-4 sm:mb-0"
             />
-            <button className="bg-orange-500 h-12 w-14 flex items-center justify-center hover:bg-white hover:text-orange-500 ">
+            <button className="bg-orange-500 h-12 w-14 flex items-center justify-center hover:bg-white hover:text-orange-500">
               <IoIosSend />
             </button>
           </div>
         </div>
 
-      
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-3 text-sm mt-10 md:mt-0">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-3 text-sm mt-10 md:mt-0">
           
           <ul className="space-y-2">
             <li>
@@ -39,7 +38,6 @@ const Footer = () => {
             <li><a href="#">Our Method</a></li>
           </ul>
 
-          
           <ul className="space-y-2">
             <li>
               <h2 className="mb-2 font-bold">BEST PRODUCTS</h2>
@@ -51,7 +49,6 @@ const Footer = () => {
             <li><a href="#">Our Method</a></li>
           </ul>
 
-          
           <ul className="space-y-2 w-[200px]">
             <li>
               <h2 className="mb-2 font-bold">CONTACT</h2>
@@ -62,7 +59,6 @@ const Footer = () => {
             <li><a href="#">Review</a></li>
           </ul>
 
-          
           <ul className="space-y-2">
             <li>
               <h2 className="mb-2 font-bold">OPENING HOURS</h2>
