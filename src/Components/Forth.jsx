@@ -3,7 +3,7 @@ import React from 'react';
 const Forth = () => {
   return (
     <div data-aos="fade-up" className='mt-24'>
-      <div className="h-[150vh] bg-[url('image/4.jpg')] bg-cover bg-center flex items-center justify-center">
+      <div className="h-[150vh] bg-[url('image/bg4.jpg')] bg-cover bg-center flex items-center justify-center">
         <div className="grid grid-cols-2 w-[80%] h-[70%] gap-10 p-3">
           
           <div className="bg-white p-8 flex flex-col justify-center text-center">
