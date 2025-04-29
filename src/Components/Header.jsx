@@ -35,7 +35,7 @@ const Header = () => {
   <img 
     src="/image/papa.jpg" 
     alt="Papa" 
-    className="w-[80vw] h-auto md:w-[50vh] md:h-[60vh]" 
+    className="w-[40vw] h-auto md:w-[50vh] md:h-[60vh]" 
   />
 </div>
 
