@@ -3,11 +3,12 @@ import Navbar from './Navbar';
 
 const Header = () => {
   return (
-    <div className="h-[200vh] bg-[url('/image/bg1.jpg')] bg-cover bg-center">
+    <div className="relative h-[200vh] bg-[url('/image/bg1.jpg')] bg-cover bg-center">
       <div style={{ backgroundColor: "rgba(0,0,0,0.75)" }} className="h-full w-full pb-40">
         <Navbar />
 
-        <div className="flex flex-col items-center justify-center h-full text-center text-white px-4" data-aos="fade-up">
+        {/* Main Text Content */}
+        <div className="flex flex-col items-center justify-center h-full text-center text-white px-4 z-10" data-aos="fade-up">
           <h5 className="mt-14 text-orange-400 text-lg sm:text-xl md:text-2xl">Visit Our Store</h5>
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold mb-4 mt-4">
@@ -27,7 +28,11 @@ const Header = () => {
               Visit Our Store
             </button>
           </div>
+        </div>
 
+        {/* Right-Aligned Image */}
+        <div className='absolute right-10 bottom-30'>
+          <img src="/image/papa.jpg" alt="" className='w-[50vh] h-[60vh] ' />
         </div>
       </div>
     </div>
