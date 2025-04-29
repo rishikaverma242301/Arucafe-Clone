@@ -31,9 +31,14 @@ const Header = () => {
         </div>
 
         {/* Right-Aligned Image */}
-        <div className='absolute right-10 bottom-30'>
-          <img src="/image/papa.jpg" alt="" className='w-[50vh] h-[60vh] ' />
-        </div>
+        <div className="absolute right-4 bottom-10 md:right-10 md:bottom-30">
+  <img 
+    src="/image/papa.jpg" 
+    alt="Papa" 
+    className="w-[80vw] h-auto md:w-[50vh] md:h-[60vh]" 
+  />
+</div>
+
       </div>
     </div>
   );

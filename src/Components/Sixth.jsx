@@ -15,7 +15,11 @@ const Seventh = () => {
 
       
       <div className="flex flex-col lg:flex-row items-center gap-8 mb-10 mt-24" data-aos="fade-up">
-        <img src="/image/67.png" alt="" className="w-110 max-w-md h-auto object-contain" />
+      <img 
+        src="/image/67.png" 
+        alt="Responsive Image" 
+       className="w-full max-w-md h-auto object-contain md:w-[27.5rem]" />
+
         <div>
           <h6 className="text-orange-500 mt-5">OUR STORY</h6>
           <h1 className="text-amber-950 text-3xl sm:text-4xl mt-2">How We Made Coffee</h1>
